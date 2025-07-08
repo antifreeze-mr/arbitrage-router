@@ -1,0 +1,16 @@
+[toolchain]
+anchor_version = "0.29.0"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.devnet]
+arbitrage_router = "6zbKTrA2YThqhpWPqzqrcyzU9a3qoVpZE7NT28fXYQis"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
